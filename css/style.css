@@ -1,0 +1,553 @@
+/*  font-family: 'Open Sans', sans-serif;
+
+    font-family: 'Raleway', sans-serif; */
+
+.main-container {
+    margin: auto;
+    min-height: 100vh;
+    font-family: 'Open Sans', sans-serif;
+    box-sizing: border-box;
+    font-size: 18px;
+}
+
+nav {
+    margin: 2% auto;
+    margin-bottom: 0;
+    display: flex;
+    justify-content: space-between;
+    color: hsl(243, 87%, 12%);
+    padding: 0 5%;
+    background-color: white;
+}
+
+.logo {
+    width: 100px;
+}
+
+.nav-menu {
+    width: 20%;
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    font-weight: 400;
+    margin-top: 0;
+}
+
+.nav-menu a {
+    text-decoration: none;
+    color: hsl(243, 87%, 12%);
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+
+/* === General Style Classes ===== */
+
+.headers-title {
+    color: hsl(243, 87%, 12%);
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+}
+
+
+/* === First Section === */
+
+.sub-section {
+    background-color: white;
+    margin-top: 2%;
+    display: flex;
+    flex-flow: row nowrap;
+    padding: 0 5%;
+}
+
+.sub-section article:nth-child(1) {
+    width: 50%;
+    padding-right: 5%;
+    padding-top: 5%;
+}
+
+.sub-section article:nth-child(2) {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+.headers-section p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    color: hsl(243, 87%, 12%);
+    font-weight: 400;
+    padding-right: 10vw;
+}
+
+#illustration-1 {
+    width: 70%;
+}
+
+.newsletter-form {
+    width: 85%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+}
+
+.newsletter-form input {
+    width: 50%;
+    border: 1px solid black;
+    padding: 10px;
+    margin-right: 10px;
+    border-radius: 5px;
+}
+
+.newsletter-form input::placeholder {
+    font-size: 12px;
+    color: rgb(194, 194, 194);
+}
+
+.button-form {
+    width: 20%;
+    padding: 6px;
+    border: 0;
+    font-family: 'Raleway', sans-serif;
+    color: white;
+    background-color: hsl(224, 93%, 58%);
+    box-shadow: 1px 1px 2px rgb(105, 105, 105);
+    transition: all 0.25s;
+}
+
+.newsletter-form button:hover {
+    cursor: pointer;
+    background-color: hsl(224, 93%, 58%, 0.5);
+    box-shadow: 1px 1px 2px hsl(224, 93%, 58%, 0.5);
+}
+
+
+/* === Sub section 2 ====*/
+
+.sub-section-2 {
+    /* background-color: #F8F8FE; */
+    margin-top: 20vh;
+    background-image: url("/images/bg-curve-desktop.svg");
+    background-repeat: no-repeat;
+    background-size: 300% 100%;
+    background-position: center;
+    padding-bottom: 20%;
+}
+
+.headers-section2 {
+    font-size: 18px;
+}
+
+#illustration-2 {
+    width: 70%;
+    padding: 60px;
+    padding-right: 0;
+    margin-top: 50px;
+}
+
+.subsection-2-link {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 14px;
+    padding-top: 8px;
+}
+
+.subsection-2-link a {
+    color: #3DA08F;
+    text-decoration: none;
+    padding-right: 8px;
+    border-bottom: 1px solid #3DA08F;
+    padding-bottom: 5px;
+    transition: all 0.25s;
+}
+
+.subsection-2-link a:hover {
+    text-decoration: none;
+    border-color: #a5e9de;
+    color: #a5e9de;
+}
+
+.subsection-2-link img {
+    width: 10px;
+}
+
+.card {
+    width: 50%;
+    background-color: white;
+    margin: 40px 0;
+    box-shadow: 1px 1px 10px rgb(204, 204, 204);
+    border-radius: 5px;
+    transition: all 0.25s;
+}
+
+#card-info {
+    padding: 10px;
+    padding-bottom: 0px;
+}
+
+#card-info h2 {
+    font-family: 'Raleway', sans-serif;
+    margin-bottom: 0;
+    margin-top: 10px;
+    padding: 0 13px;
+    height: 20px;
+}
+
+#card-info p {
+    margin-top: 0;
+    padding: 0 10px;
+    font-size: 14px;
+    line-height: 18px;
+}
+
+#card-person {
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+    padding-bottom: 20px;
+}
+
+#card-person img {
+    display: inline;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+
+#card-person h6,
+#card-person p {
+    width: auto;
+    padding: 0;
+    font-size: 10px;
+    margin: 0;
+}
+
+.card:hover {
+    transform: scale(1.2);
+}
+
+
+/* === 3rd Section === */
+
+#sub-section3 {
+    background-color: hsl(238, 22%, 44%);
+    margin-top: 0;
+}
+
+#sub-section3 .headers-title {
+    color: white;
+    font-size: 35px;
+}
+
+#sub-section3 article:nth-child(1) {
+    font-size: small;
+    padding: 75px 0;
+}
+
+.headers-section3 p {
+    font-size: 14px;
+    color: white;
+}
+
+#sub-section3 article:nth-child(2) form {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: flex-start;
+    margin-top: 10px;
+}
+
+#sub-section3 button {
+    background-color: blue;
+    font-size: 12px;
+    font-weight: 400;
+    padding: 10px 8px;
+    margin-top: 5px;
+    box-shadow: 0px 0px 2px rgb(0, 0, 0, 0.4);
+    width: 200px;
+}
+
+#sub-section3 button:hover {
+    background-color: hsl(223, 89%, 70%);
+    box-shadow: 0px 0px 2px hsl(223, 89%, 70%);
+}
+
+
+/* === Footer === */
+
+footer {
+    padding: 5% 5%;
+    background-color: hsl(243, 87%, 12%);
+}
+
+footer svg {
+    margin-bottom: 10px;
+}
+
+.footer-info {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    width: 80%;
+}
+
+.footer-info-rows {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    align-content: center;
+    font-size: 12px;
+}
+
+.footer-info-rows img {
+    width: 12px;
+    margin-right: 15px;
+}
+
+.footer-info-columns {
+    display: flex;
+    flex-flow: column wrap;
+    font-size: 10px;
+}
+
+.footer-info-columns a {
+    text-decoration: none;
+    color: white;
+    padding-top: 10px;
+    transition: all 0.25s;
+    font-size: 12px;
+}
+
+.footer-info-columns a:hover {
+    color: hsl(223, 89%, 70%);
+    transform: scale(1.2);
+}
+
+.footer-social-icons {
+    /* border: 1px solid white;
+    padding: 5px;
+    border-radius: 50%;
+    margin: 0 5px; */
+    padding-top: 10px;
+}
+
+.footer-social-icons i {
+    border: 1px solid white;
+    padding: 5px;
+    border-radius: 50%;
+    margin: 0 5px;
+    transition: all 0.25s;
+}
+
+.footer-social-icons i:hover {
+    background-color: hsl(223, 89%, 70%);
+    box-shadow: 0px 0px 2px hsl(223, 89%, 70%);
+    border: 1px solid hsl(223, 89%, 70%);
+    transform: scale(1.2);
+    color: white;
+}
+
+
+/* /// MEDIA QUERYS FOR TABLET DEVICES ////*/
+
+@media only screen and (min-width:700px) and (max-width:1000px) {
+    nav {
+        margin-top: 5%;
+    }
+    .nav-menu {
+        width: 30%;
+    }
+    /* First Section */
+    #illustration-1 {
+        width: 90%;
+        height: 80%;
+    }
+    .sub-section article:nth-child(1) {
+        font-size: 20px;
+    }
+    .newsletter-form {
+        width: 100%;
+        justify-content: flex-start;
+    }
+    .newsletter-form input {
+        width: 50%;
+        margin-right: 2px;
+    }
+    .headers-section p {
+        font-size: 14px;
+        padding-right: 0;
+    }
+    .newsletter-form input::placeholder {
+        font-size: 12px;
+    }
+    .button-form {
+        font-size: 10px;
+        width: 30%;
+    }
+    /* Second Section */
+    .subsection-2-link a {
+        font-size: 12px;
+    }
+    #illustration-2 {
+        width: 100%;
+        height: 45%;
+        padding-top: 0;
+    }
+    .card {
+        width: 70%;
+    }
+    #card-person img {
+        width: 20px;
+        height: 20px;
+    }
+    #card-info {
+        padding-top: 3px;
+    }
+    #card-info p {
+        font-size: 10px;
+    }
+    #card-person {
+        padding-bottom: 15px;
+    }
+    /* === Third Section */
+    #sub-section3 .headers-title {
+        font-size: 30px;
+    }
+    #sub-section3 article:nth-child(2) form {
+        margin-left: 10%;
+    }
+    #sub-section3 input {
+        width: 80%;
+    }
+    #sub-section3 button {
+        width: 163.5px;
+        margin-top: 10px;
+    }
+    #sub-section3 p {
+        font-size: 14px;
+        padding-right: 35px;
+    }
+}
+
+
+/* === MOBILE DEVICES==== */
+
+@media screen and (max-width: 699px) {
+    nav {
+        margin: 5% auto;
+        margin-bottom: 15%;
+        font-size: 8px;
+    }
+    .nav-menu {
+        width: 50%;
+    }
+    .nav-menu a {
+        font-size: 12px;
+    }
+    .sub-section {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .sub-section article:nth-child(1) {
+        order: 1;
+        width: 100%;
+        text-align: center;
+        padding-right: 0;
+    }
+    .sub-section article:nth-child(2) {
+        order: 0;
+        width: 100%;
+    }
+    .newsletter-form {
+        width: 100%;
+        justify-content: center;
+    }
+    .newsletter-form input {
+        width: 100%;
+        margin: 5% 0;
+    }
+    .button-form {
+        width: 100%;
+        padding: 3% 0;
+        border-radius: 5px;
+    }
+    .headers-section p {
+        padding: 0 5%;
+    }
+    /* === Sub Section 2 ==== */
+    .sub-section-2 {
+        margin-top: 5vh;
+        background-image: url("/images/bg-curve-desktop.svg");
+        background-repeat: no-repeat;
+        background-size: 440% 100%;
+        background-position: center;
+        padding-bottom: 20%;
+    }
+    #illustration-2 {
+        padding-left: 0;
+    }
+    .sub-section article:nth-child(2) {
+        text-align: center;
+    }
+    .sub-section article:nth-child(2) p {
+        text-align: left;
+    }
+    .subsection-2-link {
+        justify-content: center;
+    }
+    .subsection-2-p {
+        text-align: left;
+    }
+    #card-info h2 {
+        text-align: left;
+    }
+    .card {
+        margin: 40px auto;
+        width: 80%;
+    }
+    #card-info p {
+        text-align: left;
+    }
+    #card-person {
+        text-align: left;
+    }
+    /* === SUb section 3 === */
+    #sub-section3 article:nth-child(1) {
+        order: 0;
+        padding-bottom: 0;
+        padding-top: 30px;
+    }
+    #sub-section3 .headers-title {
+        font-size: 20px;
+    }
+    #sub-section3 article:nth-child(2) form {
+        align-items: center;
+        width: 80%;
+        padding-bottom: 30px;
+    }
+    .newsletter-form input {
+        padding: 15px 0;
+    }
+    #sub-section3 button {
+        width: 100%;
+    }
+    /* == Footer === */
+    .footer-info {
+        flex-direction: column;
+        width: 100%;
+    }
+    .footer-info-columns a:hover {
+        transform: scale(1);
+    }
+    .footer-info-rows {
+        width: 100%;
+    }
+    .footer-social-icons {
+        width: 100%;
+        justify-content: center;
+    }
+}
