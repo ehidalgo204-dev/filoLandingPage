@@ -128,7 +128,7 @@ nav {
 .sub-section-2 {
     /* background-color: #F8F8FE; */
     margin-top: 20vh;
-    background-image: url("images/bg-curve-desktop.svg");
+    background-image: url("../images/bg-curve-desktop.svg");
     background-repeat: no-repeat;
     background-size: 300% 100%;
     background-position: center;
@@ -482,7 +482,7 @@ footer svg {
     /* === Sub Section 2 ==== */
     .sub-section-2 {
         margin-top: 5vh;
-        background-image: url("images/bg-curve-desktop.svg");
+        background-image: url("../images/bg-curve-desktop.svg");
         background-repeat: no-repeat;
         background-size: 440% 100%;
         background-position: center;
